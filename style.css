@@ -1,0 +1,79 @@
+section{
+    width: 1333PX;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(blue, violet);
+
+
+}
+.carte{
+    width: 550px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 10px;
+    background-color: #ffffff;
+
+    
+
+
+}
+.photo{
+    
+    width: 150px;
+    height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+
+   
+}
+.text{
+
+    width: 150px;
+    height: 250px;
+    display: flex ;
+    flex-direction:column ;
+    position: relative;
+    bottom:10px;
+    margin-left: 10px;
+
+}
+.titre{
+    width: 280px;
+height: 60px;
+display:flex;
+justify-content: flex-start;
+margin-left:20PX ;
+}
+h1{
+    font-family: 'Sigmar One', cursive;
+}
+.info{
+    
+    width: 280px; 
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-left: 20PX;
+
+}
+.logo{
+    background-color: coral;
+    
+
+}
+img{
+    width: 210px;
+    height: 210px;
+    border-radius: 10px;
+   
+}
+i{
+    margin-right:10px;
+    color: blueviolet;
+}
